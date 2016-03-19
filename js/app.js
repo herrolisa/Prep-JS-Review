@@ -219,6 +219,15 @@ console.log(drinkinAlready);
 
 /*21. Declare a function named fightDaPower.
 This function checks the value stored at the drinkinAlready variable in the previous exercise and if the value is true, return the string "I'm jumping on the next flight to Antigua." Otherwise return the string "I can't wait to be in the 5th grade!"  Console log the result.*/ 
+function fightDaPower (drinkinAlready) {
+	if (drinkinAlready){
+		return "I'm jumping on the next flight to Antigua.";
+	}
+	else{
+		return "I can't wait to be in the 5th grade!";
+	}
+}
+console.log(fightDaPower(drinkinAlready));
 
 /*22. Declare a function named contentFiller which takes in a single parameter which will be an object.  Write a for loop that will put 5 random numbers between the values of 0 to 20 in the contents array in the bigBox object you created in exercise 10.  Console log the result.*/
 
