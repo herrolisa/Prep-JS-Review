@@ -159,6 +159,11 @@ console.log(difference);
 /*14. Declare a function named multiply.
 This function will take two parameter and return the result of multipling two numbers together.
 Store this value in a variable named product and console log this variable.*/
+function multiply (x,y) {
+	return x * y;
+}
+var product = multiply(dog,cat);
+console.log(product);
 
 /*15.  Declare a function named dunkinDonuts.
 This function will access the value stored in the sum variable and uses this number to return the string "I eats X old fashioned donuts every morning to stay classy." X is the value stored in the sum variable.  Console log the result.  */ 
