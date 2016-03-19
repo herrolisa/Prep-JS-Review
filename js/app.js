@@ -183,6 +183,10 @@ console.log(stayinClassy(difference,product));
 This function will return a string "My name is...firstName lastName."
 Invoke this function by passing in the string values of "Slim", "Shady". and console log the result.
 */
+function watMyName (firstName,lastName) {
+	return "My name is..." + firstName + " " + lastName;
+}
+console.log(watMyName("Slim","Shady"));
 
 /*18. Using the japanPrefectures array you created in exercise 5, create a for loop that iterates through this array and console logs the following message:
 
