@@ -123,13 +123,13 @@ console.log(bigBox);
 
 console log the object */ 
 var colorMeBadd = {
-	iro: {},
-	akai: "red",
-	aoi: "blue",
-	midori: "green",
-	shiroi: "white",
-	pinku: "pink",
-	murasaki: "purple",
+	iro: {
+		akai: "red",
+		aoi: "blue",
+		midori: "green",
+		shiroi: "white",
+		pinku: "pink",
+		murasaki: "purple"},
 	isJapanese: true,
 };
 console.log(colorMeBadd);
