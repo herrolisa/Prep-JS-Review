@@ -122,6 +122,17 @@ console.log(bigBox);
    isJapanese => true              
 
 console log the object */ 
+var colorMeBadd = {
+	iro: {},
+	akai: "red",
+	aoi: "blue",
+	midori: "green",
+	shiroi: "white",
+	pinku: "pink",
+	murasaki: "purple",
+	isJapanese: true,
+};
+console.log(colorMeBadd);
 
 /*For exercises #12 - 14, declare two variables, one named "dog" and the other named "cat".  Assign a number value for each variable.*/
 
