@@ -211,6 +211,11 @@ console.log(oddNumbers);
 This function takes in a number parameter age and returns a Boolean value true or false if the age is lower than the minimum legal drinking age in Antigua.
 
 Invoke this function by passing in a number value.  Google search Antigua's minimum drinking age to confirm the number value.  Store the return value to a variable named drinkinAlready and console log this variable*/
+function oldEnough (age) {
+	return age >= 18;
+}
+var drinkinAlready = oldEnough(27);
+console.log(drinkinAlready);
 
 /*21. Declare a function named fightDaPower.
 This function checks the value stored at the drinkinAlready variable in the previous exercise and if the value is true, return the string "I'm jumping on the next flight to Antigua." Otherwise return the string "I can't wait to be in the 5th grade!"  Console log the result.*/ 
