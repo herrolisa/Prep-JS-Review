@@ -150,6 +150,11 @@ console.log(sum);
 /*13.  Declare a function named subtract. 
 This function will take two parameters and returns the result of subtracting two numbers together. 
 Store this value in a variable named difference and console log this variable.*/
+function subtract (x,y) {
+	return x - y;
+}
+var difference = subtract(dog,cat);
+console.log(difference);
 
 /*14. Declare a function named multiply.
 This function will take two parameter and return the result of multipling two numbers together.
