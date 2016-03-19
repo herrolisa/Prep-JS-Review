@@ -87,6 +87,13 @@ console.log(hotel);
     doors => 4
 
  console log the object*/
+var car = {
+	make: "BMW",
+	model: "X5",
+	year: 2015,
+	doors: 4
+};
+console.log(car);
 
 /*10.  Declare a literal object named bigBox and set its value to be an empty object.
 
