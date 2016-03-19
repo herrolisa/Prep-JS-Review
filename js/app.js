@@ -174,6 +174,10 @@ console.log(dunkinDonuts(sum));
 
 /*16.  Declare a function named stayinClassy.
 This function will access the values store in the difference and product variables and uses these numbers to return the string "Yea, I drank X gallons of box wine and ate Y bags of Cheetos and still feel vibrant yo!"  X is the value stored at difference variable and Y is the value stored at product variable. Console.log the result.*/
+function stayinClassy (x,y) {
+	return "Yea, I drank " + x + " gallons of box wine and ate " + y + " bags of Cheetos and still feel vibrant yo!";
+}
+console.log(stayinClassy(difference,product));
 
 /*17.  Declare a function named watMyName, which takes two parameters firstName and lastName.
 This function will return a string "My name is...firstName lastName."
