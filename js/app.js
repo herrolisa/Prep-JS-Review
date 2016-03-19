@@ -102,7 +102,11 @@ Add a prperty named color and set it to any color.
 Add a property named contents and set it to be an empty array
 
 console log the object*/
-
+var bigBox = {};
+bigBox.name = Math.floor(Math.random() * 50);
+bigBox.color = "pink";
+bigBox.contents = [];
+console.log(bigBox);
 
 /*11.  Declare a literal object named "colorMeBadd" with properties and values set to:
 
