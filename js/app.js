@@ -60,6 +60,8 @@ console.log(planets[6]);
 /*7. Variables with Array for its value.
 Declare a variable named india and assign the value of 3 popular tourist attractions.  
 Console log the variable.*/
+var india = ["Taj Mahal", "Qutb Minar", "Humanyun's Tomb"];
+console.log(india);
 
 /*8.  Declare a literal object named "hotel" with properties and values set to:
 
