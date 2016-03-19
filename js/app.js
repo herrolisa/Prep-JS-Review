@@ -193,6 +193,9 @@ console.log(watMyName("Slim","Shady"));
 "The location at i is:  ."  and append the value of i and the value stored within the Array at that index to this string.
 
 i.e. "The locaton at 0 is Tokyo."*/
+for (var i = 0; i < japanPrefectures.length; i++) {
+	console.log("The locaton at " + i + " is: " + japanPrefectures[i] + ".");
+}
 
 /*19. Declare a variable named "oddNumbers".
 Use a for loop to add only odd numbers to an Array.  Add 30 odd numbers to the oddNumbers variable starting with the value of 1.*/
