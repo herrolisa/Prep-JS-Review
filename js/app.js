@@ -230,6 +230,14 @@ function fightDaPower (drinkinAlready) {
 console.log(fightDaPower(drinkinAlready));
 
 /*22. Declare a function named contentFiller which takes in a single parameter which will be an object.  Write a for loop that will put 5 random numbers between the values of 0 to 20 in the contents array in the bigBox object you created in exercise 10.  Console log the result.*/
+function contentFiller (obj) {
+	for (var i = 0; i < 5; i++) {
+		var random = Math.floor(Math.random() * 20);
+		obj.contents.push(random);
+	}
+}
+contentFiller(bigBox);
+console.log(bigBox);
 
 /*23.  Declare a function named firstReverse which takes a single parameter str.  This function will take a string parameter being passed in and return the string in reverse order.*/
 
