@@ -135,10 +135,17 @@ var colorMeBadd = {
 console.log(colorMeBadd);
 
 /*For exercises #12 - 14, declare two variables, one named "dog" and the other named "cat".  Assign a number value for each variable.*/
+var dog = 1;
+var cat = 9;
 
 /*12.  Declare a function named add.
 This function will take two parameters and returns the result of adding two numbers together.
 Store this value in a variable named sum and console log this variable.*/
+function add (x,y) {
+	return x + y;
+}
+var sum = add(dog,cat);
+console.log(sum);
 
 /*13.  Declare a function named subtract. 
 This function will take two parameters and returns the result of subtracting two numbers together. 
