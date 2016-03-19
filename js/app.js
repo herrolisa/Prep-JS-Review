@@ -264,3 +264,26 @@ console.log(newStr);
   </span>
 </div>    
 */
+
+var firstDiv = document.createElement("div");
+firstDiv.id = "dessert";
+var firstSpan = document.createElement("span");
+firstSpan.id = "cakes";
+var firstP = document.createElement("p");
+var chocolateText = document.createTextNode("chocolate");
+var secondDiv = document.createElement("div");
+secondDiv.id = "drinks";
+var secondSpan = document.createElement("span");
+secondSpan.id = "juice";
+var secondP = document.createElement("p");
+var koolText = document.createTextNode("kool-aid");
+
+firstP.appendChild(chocolateText);
+firstSpan.appendChild(firstP);
+firstDiv.appendChild(firstSpan);
+document.body.appendChild(firstDiv);
+
+secondP.appendChild(koolText);
+secondSpan.appendChild(secondP);
+secondDiv.appendChild(secondSpan);
+document.body.appendChild(secondDiv);
