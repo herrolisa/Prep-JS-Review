@@ -167,6 +167,10 @@ console.log(product);
 
 /*15.  Declare a function named dunkinDonuts.
 This function will access the value stored in the sum variable and uses this number to return the string "I eats X old fashioned donuts every morning to stay classy." X is the value stored in the sum variable.  Console log the result.  */ 
+function dunkinDonuts (x) {
+	return "I eats " + x + " old fashioned donuts every morning to stay classy.";
+}
+console.log(dunkinDonuts(sum));
 
 /*16.  Declare a function named stayinClassy.
 This function will access the values store in the difference and product variables and uses these numbers to return the string "Yea, I drank X gallons of box wine and ate Y bags of Cheetos and still feel vibrant yo!"  X is the value stored at difference variable and Y is the value stored at product variable. Console.log the result.*/
