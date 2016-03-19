@@ -199,6 +199,13 @@ for (var i = 0; i < japanPrefectures.length; i++) {
 
 /*19. Declare a variable named "oddNumbers".
 Use a for loop to add only odd numbers to an Array.  Add 30 odd numbers to the oddNumbers variable starting with the value of 1.*/
+var oddNumbers = [];
+for (var i = 1; i < 60; i++) {
+	if (i%2 === 1){
+		oddNumbers.push(i);
+	}
+}
+console.log(oddNumbers);
 
 /*20.  Declare a function named "oldEnough".
 This function takes in a number parameter age and returns a Boolean value true or false if the age is lower than the minimum legal drinking age in Antigua.
